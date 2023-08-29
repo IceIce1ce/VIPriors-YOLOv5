@@ -1,0 +1,1 @@
+python3.10 test.py --weights runs/train/yolov7-e6e/weights/best.pt --img 1280 --data data/DelftBikes.yaml --augment --save-json --save-conf --task test --batch 1 --verbose --name v7e6e --device 0 --half

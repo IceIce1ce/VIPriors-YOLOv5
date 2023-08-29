@@ -1,0 +1,1 @@
+python3.10 train_aux.py --workers 8 --device 0 --batch-size 1 --data data/DelftBikes.yaml --img-size 1280 --cfg cfg/training/yolov7-e6e.yaml --weights 'runs/train/yolov7-e6e/weights/last.pt' --name yolov7-e6e --hyp data/hyp.scratch.p5.yaml --epochs 100 --name yolov7-e6e --resume

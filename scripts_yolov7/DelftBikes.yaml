@@ -1,0 +1,6 @@
+train: ../datasets/DelftBikes/train/images
+val: ../datasets/DelftBikes/val/images
+test: ../datasets/DelftBikes/test/images
+
+nc: 22
+names: ['back_hand_break', 'back_handle', 'back_light', 'back_mudguard', 'bacK-pedal', 'back_reflector', 'back_wheel', 'bell', 'chain', 'dress_guard', 'dynamo', 'front_handbreak', 'front_handle', 'front_light', 'front_mudguard', 'front_pedal', 'front_wheel', 'gear_case', 'kickstand', 'lock', 'saddle', 'steer']

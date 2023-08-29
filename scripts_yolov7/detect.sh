@@ -1,0 +1,1 @@
+python3.10 detect.py --weights runs/train/yolov7-e6e/weights/best.pt --img 1280 --conf 0.001 --iou 0.6 --save-txt --save-conf --source ../datasets/DelftBikes/test/images --augment --name v7-e6e --device 0
